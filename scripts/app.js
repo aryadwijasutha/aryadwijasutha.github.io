@@ -45,12 +45,21 @@
     while ((match = re.exec(value))) {
       if (match.index > last) parent.append(value.slice(last, match.index));
       const a = text('a', match[1]);
-      a.href = routeHref(match[2]);
+      const [route, anchor] = routeTarget(match[2]);
+      a.href = `#${route}`;
+      a.dataset.route = route;
+      if (anchor) a.dataset.anchor = anchor;
       parent.append(a);
       last = re.lastIndex;
     }
     if (last < value.length) parent.append(value.slice(last));
     return parent;
+  }
+
+  function routeTarget(href) {
+    const [path, anchor] = String(href).replace(/^\.\//, '').split('#');
+    const route = path.replace(/\.html$/, '') || 'about';
+    return [route, anchor || ''];
   }
 
   function routeHref(href) {
@@ -160,6 +169,14 @@
       if (!link) return;
       event.preventDefault();
       render(link.dataset.route, true);
+    });
+    document.addEventListener('click', event => {
+      const link = event.target.closest('main a[data-anchor]');
+      if (!link) return;
+      event.preventDefault();
+      render(link.dataset.route, true);
+      const target = document.getElementById(link.dataset.anchor);
+      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
     });
   }
 
