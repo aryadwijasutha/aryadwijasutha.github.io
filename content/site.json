@@ -81,7 +81,7 @@
       "I'd rather look at that first than quote a spec sheet. Half the time the machine they ask for isn't the one they need.",
       "Along the way I built a few tools so I wouldn't have to do the same paperwork twice: a [quotation generator](projects.html#quotation), the [MIF Console](projects.html#mif), and a [Visit Logger Bot](projects.html#visit-logger)."
      ],
-     "figures": "35 deals · 17 new-business wins · IDR 493M minimum ARR · 45 devices placed"
+     "figures": "38 deals · 18 new-business wins · IDR 519M minimum ARR · 47 devices placed"
     },
     {
      "type": "entry",
@@ -109,7 +109,7 @@
       "Sales means a lot of small things worth remembering — a visit, a call, something a customer mentioned in passing. By the end of the day, the last thing I want to do is open a spreadsheet and type it all in again.",
       "So I built a Telegram bot. I tell it what happened, in my own words, and it sorts it into records, sets the follow-up, and drafts the WhatsApp message. The boring part is handled."
      ],
-     "stack": "Telegram Bot API · Python"
+     "stack": " "
     },
     {
      "type": "entry",
@@ -121,7 +121,7 @@
       "I got tired of building quotations the same way every time. Open an old Word file, swap the machine photos, retype the prices, then do the whole thing again in Indonesian. It got old fast.",
       "Now I pick the machines, fill in the customer and the terms, and it hands me a Word file and a PDF in either language. If a customer comes back, I reopen the old quotation instead of starting from zero."
      ],
-     "stack": "Python · Flask · python-docx · LibreOffice"
+     "stack": " "
     },
     {
      "type": "entry",
@@ -133,7 +133,7 @@
       "The machine data we keep is genuinely useful, but it lives in spreadsheets that were never meant to be a database. Every month I'd go through the same sorting, matching accounts to whoever handles them. Again.",
       "So I built a console. It remembers who owns what, so next month most of it is already done, and it keeps the history straight when a machine moves to a new customer. A monthly chore became something I can actually use."
      ],
-     "stack": "Python · Flask · SQLite · pandas · Chart.js"
+     "stack": " "
     },
     {
      "type": "entry",
@@ -145,7 +145,7 @@
       "I rebuilt the site for Ecolodges Indonesia, a conservation tourism business — pages, content, structure — and set up analytics so we could see how people were finding it.",
       "Over the stretch I tracked, monthly search impressions went from around 50,000 to over 100,000, and average position from 15 to 6."
      ],
-     "stack": "WordPress · Beaver Builder · Yoast SEO · Google Analytics · Search Console"
+     "stack": " "
     },
     {
      "type": "entry",
@@ -158,7 +158,7 @@
       "I'm still learning where it's good and where it isn't. Some days that's a tool, some days a workflow, some days just finding out an idea doesn't work.",
       "The point is getting from “I wonder if I could build that” to actually having it."
      ],
-     "stack": "Hermes · Python · AI tools"
+     "stack": " "
     }
    ]
   },
@@ -173,7 +173,7 @@
      "title": "Universitas Airlangga",
      "meta": "Bachelor's Degree in Information Systems · GPA 3.74/4.00",
      "body": [
-      "Software development, enterprise architecture, IT governance, data analysis — the technical side, and the business side of it.",
+      "Here i am learning about Software development, enterprise architecture, IT governance, data analysis — the technical side, and the business side of it.",
       "My final project was a JavaScript dashboard for monitoring employee KPIs, built around a state electricity company's East Java distribution unit.",
       "I was also Chief of HIMSI Sistem Informasi UNAIR in 2022."
      ]
