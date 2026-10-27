@@ -79,7 +79,7 @@
      "body": [
       "The selling covers Fujifilm multifunction machines, printing setups, and document workflows. The businesses vary — a print shop, a factory, a hotel — but the question underneath is always the same: what do they print, how much of it, and who has to deal with it.",
       "That gets looked at first, before any spec sheet. Half the time the machine they ask for isn't the one they need.",
-      "Along the way a few tools were built to keep the same paperwork from happening twice: a [quotation generator](projects.html#quotation), the [MIF Console](projects.html#mif), and a [Visit Logger Bot](projects.html#visit-logger)."
+      "Along the way a few tools were built to keep the same paperwork from happening twice: a [quotation generator](projects.html#quotation), the [Machine In Field dashboard & database](projects.html#mif), and a [Visit Logger Bot](projects.html#visit-logger)."
      ],
      "figures": "38 deals · 18 new-business wins · IDR 519M minimum ARR · 47 devices placed"
     },
@@ -127,8 +127,8 @@
      "type": "entry",
      "id": "mif",
      "period": "03",
-     "title": "MIF Console",
-     "meta": "Internal tool · Astragraphia · Machine In Field dashboard & database",
+     "title": "Machine In Field",
+     "meta": "Internal tool · Astragraphia · Dashboard & database",
      "body": [
       "The machine data on file is genuinely useful, but it lives in spreadsheets that were never meant to be a database. Every month, the same sorting came around, matching accounts to whoever handles them. Again.",
       "So a console was built. It remembers who owns what, so next month most of it is already done, and it keeps the history straight when a machine moves to a new customer. A monthly chore became something actually usable."
